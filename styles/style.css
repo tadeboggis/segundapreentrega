@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Assistant', sans-serif;
+}
+
+header{
+    background-color: rgba(53, 124, 148, 0.247);
+    display: flex;
+    gap: 20px;
+}
+
+.logo{
+    width: 100px;
+}
+
+.barra{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    grid-gap: 10px;
+    align-items: center;
+    height: 100%;
+}
+
+.item a{
+    color: white;
+    text-decoration: none;
+}
+
+.imgprincipal{
+    background-color: rgba(115, 118, 155, 0.521);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-inline: 200px;
+}
+
+.imgprincipal h2{
+    color: white;
+}
+
+.imgprincipal p{
+    color:white;
+    text-align: center;
+}
+
+.tarjetastodas{
+    display: flex;
+    padding: 50px;
+    gap: 20px;
+}
+
+.tarjetas{
+    background-color: rgba(53, 124, 148, 0.247);
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info{
+    padding-inline: 20px;
+    padding-bottom: 20px;
+}
+
+.tarjetaimg{
+    max-width: 600px;
+}
+
+.piedepagina{
+    background-color: rgba(53, 124, 148, 0.247);
+    text-align: center;
+}
